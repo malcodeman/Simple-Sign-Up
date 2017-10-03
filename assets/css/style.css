@@ -19,37 +19,56 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
+	background-color: #192E39;
 }
 
-.text {
+.aside-content {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
+}
+
+.aside-content .h1 {
+	color: #fff;
+}
+
+.aside-content .p {
+	color: rgba(255, 255, 255, .8);
 }
 
 .main {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 }
 
 .main-content {
 	display: flex;
 	flex-direction: column;
 	max-width: 425px;
+	padding: 2rem 0;
 }
 
-.input{
+.main-content .h1,
+.label {
+	color: #192E39;
+}
+
+.input {
 	height: 38px;
 	padding: 0;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 2px;
 }
 
-.btn{
+.btn {
 	height: 40px;
 	border: 0;
 	padding: 0;
+	background-color: #8B4D9F;
+	color: #fff;
+	cursor: pointer;
 }
 
 .divider {
@@ -57,14 +76,22 @@ a {
 	background-color: rgba(0, 0, 0, .2);
 }
 
-.mb-1{
+.main-content .p {
+	color: rgba(25, 46, 57, .8);
+}
+
+.mr-4 {
+	margin-right: 4rem;
+}
+
+.mb-1 {
 	margin-bottom: 1rem;
 }
 
-.mb-2{
+.mb-2 {
 	margin-bottom: 2rem;
 }
 
-.ml-2{
-	margin-left: 2rem;
+.ml-4 {
+	margin-left: 4rem;
 }
