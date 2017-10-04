@@ -1,6 +1,7 @@
 body,
 h1,
 h2,
+input,
 p {
 	margin: 0;
 }
@@ -75,11 +76,11 @@ a {
 	color: #192E39;
 }
 
-.main-content .h1{
+.main-content .h1 {
 	font: 2rem/1 Ubuntu;
 }
 
-.main-content .label{
+.main-content .label {
 	font: 1rem/1.4 Ubuntu;
 }
 
@@ -89,6 +90,7 @@ a {
 	font: 1rem/1 Ubuntu;
 	height: 38px;
 	padding: 0;
+	margin: 0;
 	text-indent: 2px;
 }
 
@@ -113,11 +115,11 @@ a {
 	font: 1rem/1 Ubuntu;
 }
 
-.main-content .p:last-of-type{
+.main-content .p:last-of-type {
 	font-size: .8rem;
 }
 
-.main-content a{
+.main-content a {
 	color: rgba(079, 135, 230, .8);
 }
 
