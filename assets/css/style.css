@@ -32,15 +32,12 @@ a {
 @media (min-width: 768px) {
 	.aside {
 		display: flex;
+		padding: 2rem 4rem;
 	}
 }
 
 .aside-content {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	padding: 2rem 4rem;
-	margin-bottom: 10%;
+	text-align: right;
 }
 
 .aside-content .h1 {
@@ -55,11 +52,13 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 1rem;
 }
 
 @media (min-width: 768px) {
 	.main {
 		justify-content: flex-start;
+		padding: 2rem 4rem;
 	}
 }
 
@@ -67,7 +66,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	max-width: 425px;
-	padding: 2rem 4rem;
 }
 
 .main-content .h1,
@@ -89,6 +87,7 @@ a {
 	background-color: #8B4D9F;
 	color: #fff;
 	cursor: pointer;
+	border-radius: 2px;
 }
 
 .divider {
