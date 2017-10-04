@@ -22,11 +22,11 @@ a {
 }
 
 .aside {
+	align-items: flex-end;
+	background-color: #192E39;
 	display: none;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-end;
-	background-color: #192E39;
 }
 
 @media (min-width: 768px) {
@@ -42,15 +42,17 @@ a {
 
 .aside-content .h1 {
 	color: #fff;
+	font: 2rem/1 Ubuntu;
 }
 
 .aside-content .p {
 	color: rgba(255, 255, 255, .8);
+	font: 1rem/1 Ubuntu;
 }
 
 .main {
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: center;
 	padding: 1rem;
 }
@@ -73,30 +75,50 @@ a {
 	color: #192E39;
 }
 
+.main-content .h1{
+	font: 2rem/1 Ubuntu;
+}
+
+.main-content .label{
+	font: 1rem/1.4 Ubuntu;
+}
+
 .input {
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	font: 1rem/1 Ubuntu;
 	height: 38px;
 	padding: 0;
-	border: 1px solid rgba(0, 0, 0, .2);
-	border-radius: 2px;
+	text-indent: 2px;
 }
 
 .btn {
-	height: 40px;
-	border: 0;
-	padding: 0;
 	background-color: #8B4D9F;
+	border-radius: 2px;
+	border: 0;
 	color: #fff;
 	cursor: pointer;
-	border-radius: 2px;
+	font: 1rem/1 Ubuntu;
+	height: 40px;
+	padding: 0;
 }
 
 .divider {
-	height: 1px;
 	background-color: rgba(0, 0, 0, .2);
+	height: 1px;
 }
 
 .main-content .p {
 	color: rgba(25, 46, 57, .8);
+	font: 1rem/1 Ubuntu;
+}
+
+.main-content .p:last-of-type{
+	font-size: .8rem;
+}
+
+.main-content a{
+	color: rgba(079, 135, 230, .8);
 }
 
 .mb-1 {
