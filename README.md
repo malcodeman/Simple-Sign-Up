@@ -5,7 +5,9 @@
 
 Just a grid based sign up page.
 
-![Screenshot](docs/images/screenshot.png?raw=true)
+Inspired by [InVision](https://projects.invisionapp.com/d/login).
+
+![Screenshot](docs/images/screenshot.png)
 
 ## Assets
 
